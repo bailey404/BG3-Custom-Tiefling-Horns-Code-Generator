@@ -1,0 +1,81 @@
+			<!-- ================== UUIDhandle ======================= -->
+			
+<!-- Physical Map -->
+
+<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+	<!-- Referenced in MaterialBank -->				
+					<attribute id="ID" type="FixedString" value="PMAP_UUID" />
+	<!-- Match file name -->
+					<attribute id="Name" type="LSString" value="TEXTURE_PREFIX_PM" />
+					<attribute id="SRGB" type="bool" value="False" />
+	<!-- Texture file location, i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/TEXTURE_PREFIX_PM.dds -->
+					<attribute id="SourceFile" type="LSString" value="PMAP_PATH" />
+					<attribute id="Streaming" type="bool" value="True" />
+	<!-- Match file name -->
+					<attribute id="Template" type="FixedString" value="TEXTURE_PREFIX_PM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+
+<!-- Base Color Map -->
+
+	<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+		<!-- Referenced in MaterialBank -->
+					<attribute id="ID" type="FixedString" value="BMAP_UUID" />
+		<!-- Match file name -->
+					<attribute id="Name" type="LSString" value="TEXTURE_PREFIX_BM" />
+					<attribute id="SRGB" type="bool" value="True" />
+		<!-- Texture file location i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/TEXTURE_PREFIX_BM.dds -->
+					<attribute id="SourceFile" type="LSString" value="BMAP_PATH" />
+					<attribute id="Streaming" type="bool" value="True" />
+		<!-- Match file name -->
+					<attribute id="Template" type="FixedString" value="TEXTURE_PREFIX_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				
+<!-- Normal Map -->	
+			
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+		<!-- Referenced in MaterialBank -->
+					<attribute id="ID" type="FixedString" value="NMAP_UUID" />
+		<!-- Match file name -->
+					<attribute id="Name" type="LSString" value="TEXTURE_PREFIX_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+		<!-- Texture file location i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/TEXTURE_PREFIX_NM.dds -->
+					<attribute id="SourceFile" type="LSString" value="NMAP_PATH" />
+					<attribute id="Streaming" type="bool" value="True" />
+		<!-- Match file name -->
+					<attribute id="Template" type="FixedString" value="TEXTURE_PREFIX_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>				
+				
+<!-- Gradient Mask Map -->	
+	
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="128" />
+		<!-- Referenced in MaterialBank as SkinGradientHorn_MSK -->
+					<attribute id="ID" type="FixedString" value="MMAP_UUID" />
+		<!-- Match file name -->
+					<attribute id="Name" type="LSString" value="TEXTURE_PREFIX_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+		<!-- Texture file location i.e. Generated/Public/Saers_Horns/[PAK]_Saers_Horns/Horns/TEXTURE_PREFIX_MSK.dds -->
+					<attribute id="SourceFile" type="LSString" value="MMAP_PATH" />
+					<attribute id="Streaming" type="bool" value="True" />
+		<!-- Match file name -->
+					<attribute id="Template" type="FixedString" value="TEXTURE_PREFIX_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>

@@ -1,0 +1,88 @@
+			<!-- ======================= YOUR NAME HERE ====================== -->
+			<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+	<!-- Referenced in VisualBank as the MaterialID  -->
+					<attribute id="ID" type="FixedString" value="MATERIAL_UUID" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+	<!-- Horns texture file prefix  -->
+					<attribute id="Name" type="LSString" value="TEXTURE_PREFIX" />
+	<!-- This is the same for all horns, dont touch  -->
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Horns.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+					
+	<!-- Reflection map, unused for horns normally-->				
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+	<!-- Normal Map NM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+	<!-- Points to the TextureBank where the file location is stored --> 
+							<attribute id="ID" type="FixedString" value="NMAP_UUID" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+	<!-- Base Color Map BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="BMAP_UUID" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+						</node>
+	<!-- Gradient Mask Map MSK -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="MMAP_UUID" />
+							<attribute id="ParameterName" type="FixedString" value="SkinGradientHorn_MSK" />
+						</node>
+	<!-- Physical Map PM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture Map" />
+							<attribute id="ID" type="FixedString" value="PMAP_UUID" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+						</node>
+	<!-- Not a map, store color for the gradients, base value is default shown in characterCreator -->
+						<node id="Vector3Parameters">
+	<!-- Hex would be #2b221d -->
+							<attribute id="BaseValue" type="fvec3" value="0.1686275 0.1372549 0.1137255" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinColor" />
+							<attribute id="Value" type="fvec3" value="0.1686275 0.1372549 0.1137255" />
+						</node>
+						<node id="Vector3Parameters">
+	<!-- Hex would be #18120d -->
+							<attribute id="BaseValue" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="NonSkinTipColor" />
+							<attribute id="Value" type="fvec3" value="0.09411765 0.07058824 0.05490196" />
+						</node>
+						<node id="Vector3Parameters">
+	<!-- Hex would be #911c19, skin color for tieflings -->
+							<attribute id="BaseValue" type="fvec3" value="0.5699794 0.1131871 0.1007226" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="SkinApproxColor" />
+							<attribute id="Value" type="fvec3" value="0.5699794 0.1131871 0.1007226" />
+						</node>
+					</children>
+				</node>	

@@ -1,0 +1,16 @@
+            <!-- ======== YOUR NAME HERE ========== -->
+            <node id="CharacterCreationAppearanceVisual">
+			<!-- Default/Standard bodyshape = 0, alternate/Strong bodyshape = 1 -->
+                    <attribute id="BodyShape" type="uint8" value="B_SHAPE"/>
+			<!-- Masc = 0 , Fem = 1 -->
+                    <attribute id="BodyType" type="uint8" value="B_TYPE"/>
+			<!-- This matches the .loca file that stores the names -->
+                    <attribute id="DisplayName" type="TranslatedString" handle="UUIDhandle" version="2"/>
+			<!-- This matches the RaceUUID, in this case Tiefling-->
+                    <attribute id="RaceUUID" type="guid" value="RACE_UUID"/>
+                    <attribute id="SlotName" type="FixedString" value="CC_SLOT"/>
+			<!-- Not referenced anywhere else, uniquely generated UUID   -->
+                    <attribute id="UUID" type="guid" value="CCAVUUID"/>
+			<!-- This matches the UUID of the horn mesh in _merged-->
+                    <attribute id="VisualResource" type="guid" value="MESH_UUID"/>
+            </node>

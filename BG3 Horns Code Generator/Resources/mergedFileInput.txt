@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="MaterialBank">
+		<node id="MaterialBank">
+			<children>
+		
+			<!-- =======================Horn Material====================== -->
+			MERGED_MATERIAL_SNIPPET
+			</children>
+		</node>
+	</region>
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+
+			<!-- ==================Horn Textures======================= -->
+			MERGED_TEXTURES_SNIPPET
+			
+			</children>
+		</node>
+	</region>
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+			
+			<!-- =========================Horn Mesh================================ -->
+			MERGED_MESH_SNIPPET
+
+			</children>
+		</node>
+	</region>
+</save>

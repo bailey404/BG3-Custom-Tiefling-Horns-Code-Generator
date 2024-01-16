@@ -1,0 +1,13 @@
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\bin\Debug\BG3 Horns Code Generator.exe.config
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\bin\Debug\BG3 Horns Code Generator.exe
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\bin\Debug\BG3 Horns Code Generator.pdb
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\bin\Debug\BG3 Horns Code Generator.xml
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3_Horns_Code_Generator.HCG.resources
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3_Horns_Code_Generator.Resources.resources
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3 Horns Code Generator.vbproj.GenerateResource.cache
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3 Horns Code Generator.vbproj.CoreCompileInputs.cache
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3 Horns Code Generator.exe
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3 Horns Code Generator.xml
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3 Horns Code Generator.pdb
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3_Horns_Code_Generator.SnippetResources.resources
+E:\Game WIPs\BG3 Horns Code Generator\BG3 Horns Code Generator\obj\Debug\BG3 Horns Code Generator.vbproj.AssemblyReference.cache
